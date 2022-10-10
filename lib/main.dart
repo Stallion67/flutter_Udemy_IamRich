@@ -11,7 +11,9 @@ void main() {
         ),
        body: Center(
          child: Image(
-          image:NetworkImage('https://designvault.io/wp-content/uploads/2020/06/01-1.png'),
+          image:
+          //NetworkImage('https://designvault.io/wp-content/uploads/2020/06/01-1.png'),
+          AssetImage('assets/images/PW15.png'),
          ),
        ),
       )
